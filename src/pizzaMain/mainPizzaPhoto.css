@@ -1,0 +1,36 @@
+.mainPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    position:static;
+    grid-template-columns:5%;
+}
+
+.cheesyPizaa{
+    display: grid;
+    grid-area: c;
+    width: 500px;
+    height: 500px;
+    
+    
+}
+.vegetarianoPizza{
+    display: grid;
+    grid-area: v;
+    width: 500px;
+    height: 500px;
+    
+}
+.peperoniPizza{
+    display: grid;
+    grid-area: p;
+    width: 500px;
+    height: 500px;
+    
+}
+.italianoPizza{
+    display: grid;
+    grid-area: i;
+    width: 500px;
+    height: 500px;
+    
+}

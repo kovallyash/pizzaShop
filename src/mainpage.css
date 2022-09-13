@@ -1,0 +1,61 @@
+.pizza{
+    flex-direction: column;
+    display: flex;
+    background: #FCFCFC;
+    height: 100%;
+    position:relative;
+    height: 100%;
+    width: 100%;
+}
+.app_body h1{
+    display: flex;
+    justify-content: center;
+    grid-area: n;
+}
+
+.about_pizzas{
+    display: grid;
+    grid-area: p;
+    grid-template-areas: "p p" "p p";
+
+    gap: 20px;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25)
+
+}
+.about_pizzas .OrderButt {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    size-adjust: 50px;
+    
+    
+    
+}
+.about_pizzas .OrderButt button{
+    size-adjust: 70px;
+    background: #F25657;
+    height: 50px;
+    border-radius: 15px;
+    color:#fcfcfc;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #F25657;
+    padding: 6px 24px;
+    font-size: 1.15em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #fcfcfc;
+    color:#F25657;
+    transition: all 0.25s ease-in-out;
+	
+}
+.about_pizzas .OrderButt button:hover {
+    background-color: #F25657;
+    border-color: #F25657;
+    color: #FCFCFC;
+}

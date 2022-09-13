@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.MainVideoPage{
+    width: 100%;
+    height: 100%;
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fcfcfc;
+    gap: 15px;
+    
+    
+}
+.mainContent h1{
+    color: #fcfcfc;
+    padding-bottom: 20px;
+    font-size: 70px;
+    
+}.mainContent p{
+    color: #fcfcfc;
+    font-size: 30px;
+}
+.mainContent .btn{
+    width: 200px;
+    height: 50px;
+}
+
+.mainContent .btn button{
+    background: #F25657;
+    height: 50px;
+    border-radius: 15px;
+    color:#fcfcfc;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #F25657;
+    padding: 6px 24px;
+    font-size: 1.15em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #fcfcfc;
+    color:#F25657;
+    transition: all 0.25s ease-in-out;
+}
+.mainContent .btn button:hover{
+    background-color: #F25657;
+    border-color: #F25657;
+    color: #FCFCFC;
+
+}

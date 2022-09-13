@@ -1,0 +1,6 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(73, 74, 74) ;
+}

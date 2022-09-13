@@ -1,0 +1,54 @@
+.app_header{
+    background-color: #F25657;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: " n    b   " ;
+    z-index: 1000;
+}
+.app_header header{
+    height: 40px;
+
+}
+.company_name h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration:none;
+    color: #FCFCFC;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    grid-area: b;
+    padding-top: 20px;
+    padding-right: 15px;
+    
+
+}
+.buttons button{
+    font-size: 15px;
+    background: #fcfcfc ;
+    padding: 10px 24px;
+    border-radius: 10px;
+    height: 35px;
+    padding: 4px 15px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    text-align: center;
+    border: 2px solid #fcfcfc;
+    transition: all 0.25s ease-in-out;
+    margin: 10px;
+    
+    
+}
+.buttons button:hover{
+    background-color: #F25657;
+    border-color: #F25657;
+    color: #FCFCFC;
+}

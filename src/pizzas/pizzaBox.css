@@ -1,0 +1,125 @@
+/* .content{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    
+
+
+} */
+/* .overlay{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgba(240, 248, 255, 0.41);
+    text-align: center;
+} */
+.overlay img{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+}
+.content{
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
+}
+.content .overlay{
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.741);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0,4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0,4s ease-in-out 0s;
+    
+}
+.content:hover .overlay{
+    opacity: 1;
+
+}
+.content-image{
+    width: 100%;
+}
+.content-detalis{
+    position: absolute;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    top: 50%;
+    left:50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0,3s ease-in-out 0s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0,3s ease-in-out 0s;
+    
+
+}
+.content:hover .content-detalis{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.741);
+    
+    
+
+}
+.content-detalis h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0,15rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.content-detalis p{
+    color: #fff;
+    font-size: 0,08rem;
+}
+.fadeIn-top{
+    top: 20%;
+}
+.overlay .mainText{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.content .OrderButt{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
